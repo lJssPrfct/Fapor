@@ -1,0 +1,36 @@
+.services{
+    text-align: center;
+    padding: 7.5rem 0;
+}
+.services__text-p{
+    margin-top: 56px;
+    line-height: 24px;
+    font-weight: $regular;
+    font-size: 0.875rem;
+}
+.services__content{
+    margin-top: 67px;
+}
+.s-card{
+    margin-top: 30px;
+}
+.s-card__img1{
+    border: 1px solid $btn-color;
+    border-radius: 50%;
+    padding: 27px 31px 29px 29px;
+}
+.s-card__img2{
+    border: 1px solid $btn-color;
+    border-radius: 50%;
+    padding: 32px 28px 29px 29px;
+}
+.s-card__img3{
+    border: 1px solid $btn-color;
+    border-radius: 50%;
+    padding: 28px 27px 28px 29px;
+}
+.s-card__body-text{
+    font-size: 0.875rem;
+    font-weight: $regular;
+    line-height: 24px;
+}

@@ -1,0 +1,48 @@
+//1.vendors/
+//2.utils/
+//3.base/
+//4.layout/
+//5.components/
+//6.pages/
+//7.themes/
+
+
+
+
+@import "vendors/bs/bootstrap";
+@import "vendors/bs/bootstrap-grid";
+
+@import 'utils/vars';
+@import 'utils/_mixins';
+
+
+@import 'base/base';
+@import 'base/fonts';
+
+
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/services';
+@import 'layout/about';
+@import 'layout/works';
+@import 'layout/bar';
+@import 'layout/team';
+@import 'layout/clients';
+@import 'layout/contacts';
+
+
+
+
+@import 'components/buttons';
+@import 'components/slider';
+@import 'components/navigation';
+@import 'components/forms';
+
+@import 'pages/home';
+
+
+
+
+@import "media"; // Всегда в конце

@@ -1,0 +1,32 @@
+.bar{
+    padding: 4.875rem 0 6.25rem 0;
+    background-color: $font-color;
+}
+.bar__card-number{
+    color: $btn-color;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-weight: $regular;
+}
+.bar__card-h4{
+    color: #ffffff;
+    font-size: 0.875rem;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 77px;
+        height: 2px;
+        background-color: $btn-color;
+        top: 35px;
+        left: 39.5%;
+    }
+}
+.bar__card-p{
+    color: #ffffff;
+    font-weight: $regular;
+    font-size: 0.875rem;
+    line-height: 24px;
+    margin-top: 24px;
+}

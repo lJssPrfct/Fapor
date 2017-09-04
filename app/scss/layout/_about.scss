@@ -1,0 +1,41 @@
+.about{
+    background-color: #f7f7f7;
+}
+.about-wrapper{
+    padding: 7.4375rem 0 7.5rem 0;
+}
+.about__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 59px rgba(204, 204, 204, 0.39);
+    //padding: 7.4375rem 0 7.5rem 0;
+    padding: 0;
+    max-width: 1365px;
+    margin: 0 auto;
+}
+.about-img{
+    max-width: 100%;
+}
+// .about__text{
+//     //padding: 7.5625rem 0 6.5rem 0;
+// }
+.about__text-h2{
+    position: relative;
+    
+    &::before{
+        content: '';
+        position: absolute;
+        width: 77px;
+        height: 2px;
+        background-color: $btn-color;
+        top: 47px;
+    }
+}
+.about__text-p{
+    margin-top: 47px;
+}
+.about__button{
+    margin-top: 4.25rem;
+}
