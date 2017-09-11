@@ -4,6 +4,9 @@
 }
 .works__text-list{
     margin: 3.75rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .works__list-link{
     text-decoration: none;
@@ -13,6 +16,7 @@
     line-height: 24px;
     font-weight: $regular;
     transition: color 0.5s ease-in-out;
+    padding: 0 1rem;
     &:hover{
         color: $btn-color;
     }
@@ -32,7 +36,7 @@
         content: '';
         position: absolute;
         width: 100%;
-        height: 357px;
+        height: 100%;
         background-color: $font-color;
         opacity: .9;
         display: none;
@@ -49,7 +53,7 @@
 }
 .works__item-overlay{
     position: absolute;
-    left: 32%;
+    left: 30%;
     top: 30%;
     display: none;
 }
@@ -59,5 +63,5 @@
 .works__item-img{
     max-width: 100%;
     margin-top: -9px;
-    height: 357px;
+    height: auto;
 }

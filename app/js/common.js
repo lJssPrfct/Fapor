@@ -10,4 +10,8 @@ $(function() {
             scrollTop: currentBlockOffset - 20
         }, 1000);    
     });
+    $("[data-fancybox]").fancybox({
+        infobar : true,
+        loop : true
+	});
 });

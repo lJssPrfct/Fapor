@@ -12,16 +12,6 @@
 .bar__card-h4{
     color: #ffffff;
     font-size: 0.875rem;
-    position: relative;
-    &::after{
-        content: '';
-        position: absolute;
-        width: 77px;
-        height: 2px;
-        background-color: $btn-color;
-        top: 35px;
-        left: 39.5%;
-    }
 }
 .bar__card-p{
     color: #ffffff;
