@@ -13,5 +13,11 @@ $(function() {
     $("[data-fancybox]").fancybox({
         infobar : true,
         loop : true
-	});
+    });
+    
+   
+
+    
+    
 });
+
